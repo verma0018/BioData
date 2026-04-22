@@ -301,30 +301,30 @@ with g2:
 st.markdown('</div>', unsafe_allow_html=True)
 
 # ---------------------- Bottom ----------------------
-left, right = st.columns([1,1])
+# left, right = st.columns([1,1])
 
-with left:
-    st.markdown('<div class="glass section">', unsafe_allow_html=True)
-    st.markdown('<div class="section-title">Hobbies & Interests</div>', unsafe_allow_html=True)
-    st.markdown(
-        '''
-        <div class="chips">
-            <div class="chip">🎵 Singing</div>
-            <div class="chip">✏️ Sketching</div>
-            <div class="chip">✈️ Travelling</div>
-            <div class="chip">🏏 Sports</div>
-            <div class="chip">🚗 Automobile Enthusiast</div>
-        </div>
-        ''',
-        unsafe_allow_html=True,
-    )
-    st.markdown('</div>', unsafe_allow_html=True)
+# with left:
+st.markdown('<div class="glass section">', unsafe_allow_html=True)
+st.markdown('<div class="section-title">Hobbies & Interests</div>', unsafe_allow_html=True)
+st.markdown(
+    '''
+    <div class="chips">
+        <div class="chip">🎵 Singing</div>
+        <div class="chip">✏️ Sketching</div>
+        <div class="chip">✈️ Travelling</div>
+        <div class="chip">🏏 Sports</div>
+        <div class="chip">🚗 Automobile Enthusiast</div>
+    </div>
+    ''',
+    unsafe_allow_html=True,
+)
+st.markdown('</div>', unsafe_allow_html=True)
 
-with right:
-    st.markdown('<div class="glass contact-box">', unsafe_allow_html=True)
-    st.markdown('<div class="section-title">Contact</div>', unsafe_allow_html=True)
-    st.markdown('<div class="contact-item">📧 verma071276@gmail.com</div>', unsafe_allow_html=True)
-    st.markdown('<div class="contact-item">📱 +91 7067324323</div>', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)
+# with right:
+#     st.markdown('<div class="glass contact-box">', unsafe_allow_html=True)
+#     st.markdown('<div class="section-title">Contact</div>', unsafe_allow_html=True)
+#     st.markdown('<div class="contact-item">📧 verma071276@gmail.com</div>', unsafe_allow_html=True)
+#     st.markdown('<div class="contact-item">📱 +91 7067324323</div>', unsafe_allow_html=True)
+#     st.markdown('</div>', unsafe_allow_html=True)
 
 st.markdown('<div class="footer">Designed with Streamlit ✨</div>', unsafe_allow_html=True)
