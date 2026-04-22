@@ -199,10 +199,10 @@ st.markdown(
 )
 
 # ---------------------- Images ----------------------
-family = Image.open("images\pondi.jpeg")
-profile = Image.open("images\profile.webp")
-travel = Image.open("images/travel.jpeg")
-work = Image.open("images\work.jpeg")
+family = Image.open("images/smile.jpg")
+profile = Image.open("images/profile.webp")
+travel = Image.open("images/kurta.jpg")
+work = Image.open("images/work.jpeg")
 
 # ---------------------- Hero ----------------------
 left, right = st.columns([1, 1.5])
